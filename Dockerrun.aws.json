@@ -1,0 +1,14 @@
+{
+    "AWSEBDockerrunVersion": 2,
+    "image": {
+      "name": "kopeckjj/gethired-app:latest",
+      "update": "true"
+    },
+    "ports": [
+      {
+        "containerPort": 3000
+      }
+    ],
+    "logging": "/var/log/nginx"
+  }
+  

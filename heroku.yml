@@ -1,0 +1,9 @@
+build:
+  docker:
+    web: Dockerfile
+  config:
+    LANG: en_US.UTF-8
+    NODE_ENV: production
+
+run:
+  web: docker run -p 3000:3000 kopeckjj/gethired-app:latest
